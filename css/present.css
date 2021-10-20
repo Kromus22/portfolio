@@ -1,0 +1,42 @@
+.present__photo {
+    width: 290px;
+    height: auto;
+}
+
+.present__content {
+    margin-top: 20px;
+}
+
+.present__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #110303;
+    margin-bottom: 10px;
+}
+
+.present__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.present__desc {
+    font-size: 14px;
+    line-height: 140%;
+    color: #110303;
+    padding: 18px 0;
+}
+
+.present__order-btn {
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 60px;
+    background: #E87C40;
+    border-radius: 4px;
+}
