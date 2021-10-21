@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .header__contacts {
@@ -113,20 +114,20 @@
 
 @media (min-width: 992px) {
     .header {
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100%;
         padding: 50px 0;
     }
 
     .header__container {
         height: 100%;
         flex-direction: column;
+        align-items: flex-end;
+        padding: 0 20px;
     }
 
     .header__contacts {
         position: static;
+        display: block;
+        padding: 0;        
     }
 
     .contacts__list {
