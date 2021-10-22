@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+    <script src="js/index.js" defer></script>
 </head>
 
 <body class="page">
@@ -78,11 +82,11 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Портфолио</h2>
-                <div class="portfolio__slider">
-                    <ul class="portfolio__list">
-                        <li class="portfolio__item">
+                <div class="portfolio__slider swiper">
+                    <ul class="portfolio__list swiper-wrapper">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="img/cinema.jpg" alt="">
+                                <img class="card__picture" src="img/cinema.jpg" alt="Сайт онлайн кинотеатра">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Cinema</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -91,9 +95,9 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="" alt="">
+                                <img class="card__picture" src="img/iphone.jpg" alt="Сайт магазиа Apple">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Full Apple</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -102,9 +106,9 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="" alt="">
+                                <img class="card__picture" src="img/go.jpg" alt="Игровой сайт">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Game Over</span>
                                     <time class="card__date" datetime="2019">год: 2019</time>
@@ -113,9 +117,9 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="" alt="">
+                                <img class="card__picture" src="img/friendlyhouse.jpg" alt="Сайт приюта для животных">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Friendly House</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -124,9 +128,9 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="" alt="">
+                                <img class="card__picture" src="img/dom.jpg" alt="Сайт по строительству домов">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: ItalGroup boutique</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -135,6 +139,8 @@
                             </article>
                         </li>
                     </ul>
+                    <button class="portfolio__arrow portfolio__arrow_left"></button>
+                    <button class="portfolio__arrow portfolio__arrow_right"></button>
                 </div>
             </div>
         </section>
