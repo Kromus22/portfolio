@@ -82,4 +82,9 @@
     padding: 16px 60px;
     background-color: #E87C40;
     border-radius: 4px;
+    transition: box-shadow 0.3s;
+}
+
+.callback__btn:hover {
+    box-shadow: 0px 0px 10px 5px #E87C40;
 }
